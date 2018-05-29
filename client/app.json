@@ -1,0 +1,16 @@
+{
+  "pages":[
+    "pages/home/index",
+    "pages/card/index",
+    "pages/my/index",
+    "pages/feedback/index",
+    "pages/wordsnote/index"
+  ],
+  "window":{
+    "backgroundColor":"#F6F6F6",
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "说练日更",
+    "navigationBarTextStyle":"black"
+  }
+}

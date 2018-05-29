@@ -1,0 +1,10 @@
+<view class="article">
+  <view class="meta">
+    <text class="dayago">{{article.dayago}}</text>
+    <text class="readtime">{{article.readtime}}</text>
+    <text class="watch">{{article.watch}}</text>
+    <text class="collect">收藏</text>
+  </view>
+  <text class="title">{{article.title}}</text>
+  <text class="intro">{{article.intro}}</text>
+</view>

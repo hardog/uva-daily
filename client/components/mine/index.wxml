@@ -1,0 +1,8 @@
+<cover-view class="mine" wx:if="{{login}}">
+  <cover-view class="textwrap">
+    <cover-view class="notice">新增每日一句、收藏单词复习功能;</cover-view>
+    <cover-view class="notice">2s内连续点按的单词将作为一组词翻译</cover-view>
+  </cover-view>
+  <cover-image class="avator" bindtap="gomy" src="{{avator}}" />
+</cover-view>
+

@@ -1,0 +1,44 @@
+.words{
+  width: 750rpx;
+  background-color: #f8f8f8;
+  box-sizing: border-box;
+  padding: 20rpx 40rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.words1{
+  width: 330rpx;
+  display: flex;
+  flex-direction: column;
+}
+.words2{
+  width: 330rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.height1{ height: 330rpx; }
+.height2{ height: 380rpx; }
+.height3{ height: 400rpx; }
+.height4{ height: 460rpx; }
+.height5{ height: 500rpx; }
+.height6{ height: 540rpx; }
+
+.word{
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12rpx;
+  margin-top: 10rpx;
+  box-sizing: border-box;
+  padding: 40rpx;
+  overflow-y: hidden;
+}
+.wordtxt{
+  font-size: 50rpx;
+  font-family: PingFangSC-Regular;
+  color: #59c83b;
+  text-overflow: ellipsis;
+}

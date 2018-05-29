@@ -1,0 +1,34 @@
+.mine{
+  width: 750rpx;
+  height: 150rpx;
+  position: fixed;
+  top: -10rpx;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  background-color: #f8f8f8;
+  border-bottom: solid #ffffff 1px;
+  justify-content: flex-end;
+  align-items: center;
+}
+.textwrap{
+  width: 610rpx;
+  box-sizing: border-box;
+  padding: 5rpx 0 5rpx 20rpx;
+  display: flex;
+  flex-direction: column;
+}
+.avator{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50rpx;
+  margin-right: 40rpx;
+  border: solid #59c83b 2rpx;
+}
+.notice{
+  font-size: 28rpx;
+  font-family: PingFangSC-Regular;
+  color: #333333;
+  margin-right: 40rpx;
+  margin: 5rpx 0;
+}

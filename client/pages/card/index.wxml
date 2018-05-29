@@ -1,0 +1,4 @@
+<view class="card" style="min-height: {{height}}px">
+ 
+</view>
+

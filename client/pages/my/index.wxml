@@ -1,0 +1,14 @@
+<view class="mine" style="height: {{height}}px">
+  <view class="head">
+    <image src="{{avator}}" class="avator"/>
+    <text class="nick">{{userInfo.nickName}}(直接向作者提需求: ncu_zp(微信))</text>
+  </view>
+  <view class="line" bindtap="goFeedback">
+    <text class="lineText">去反馈</text>
+    <image src="../../images/rightarrow.png" class="go"/>
+  </view>
+  <view class="line" bindtap="goMyWordsNote">
+    <text class="lineText">我的单词本</text>
+    <image src="../../images/rightarrow.png" class="go"/>
+  </view>
+</view>

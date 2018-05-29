@@ -1,0 +1,20 @@
+<view class="words" style="min-height: {{height}}px">
+  <view class="words1">
+    <view class="word {{'height' + item.rand}}" 
+          bindtap="wordtap"
+          data-v="{{item.word}}"
+          wx:for="{{words1}}" 
+          wx:key="{{index}}">
+      <text class="wordtxt">{{item.word}}</text>
+    </view>
+  </view>
+  <view class="words2">
+    <view class="word {{'height' + item.rand}}"
+          bindtap="wordtap" 
+          data-v="{{item.word}}"
+          wx:for="{{words2}}" 
+          wx:key="{{index}}">
+      <text class="wordtxt">{{item.word}}</text>
+    </view>
+  </view>
+</view>

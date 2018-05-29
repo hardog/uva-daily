@@ -1,0 +1,15 @@
+{
+	"client": "./client",
+	"miniprogramRoot": "./client",
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"libVersion": "2.0.8",
+	"appid": "wx1e37090ee5b8597d",
+	"projectname": "uva-daily",
+	"condition": {}
+}

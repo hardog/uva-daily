@@ -1,0 +1,7 @@
+<view>
+  <scroll-view class="list">
+    <Article article="{{item}}" wx:for="{{list}}" wx:key="{{index}}"/> 
+  </scroll-view>
+  <Login wx:if="{{loginShow}}" binduserInfo="onBindUserInfo"/>
+  <Mine user="{{user}}" wx:if="{{!loginShow}}"/>
+</view>
